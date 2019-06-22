@@ -47,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-06-22-如何优雅的写出一个单例模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="392">
-                <caret line="257" column="30" lean-forward="true" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+              <first_editor relative-caret-position="301">
+                <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
                 <folding>
                   <element signature="e#182#183#0" expanded="true" />
                   <element signature="e#213#214#0" expanded="true" />
@@ -241,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561174971400</updated>
-      <workItem from="1561174973087" duration="5194000" />
+      <workItem from="1561174973087" duration="5289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5194000" />
+    <option name="totallyTimeSpent" value="5289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -575,8 +575,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-06-22-如何优雅的写出一个单例模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="392">
-            <caret line="257" column="30" lean-forward="true" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+          <first_editor relative-caret-position="301">
+            <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             <folding>
               <element signature="e#182#183#0" expanded="true" />
               <element signature="e#213#214#0" expanded="true" />
