@@ -10,7 +10,7 @@ tags:
 ---
 
 ## 我的第一篇博客
-```java
+```objc
 public class Test {
     public static void main(String[] args){
       System.out.println("1111");
