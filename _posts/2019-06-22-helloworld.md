@@ -4,6 +4,7 @@ title: "Hello world"
 subtitle: 'Hello world'
 author: "Starboyate"
 header-style: text
+multilingual: true
 tags:
   - 设计模式
 ---
