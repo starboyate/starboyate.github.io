@@ -47,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-06-22-如何优雅的写出一个单例模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <first_editor relative-caret-position="462">
+                <caret line="234" column="31" lean-forward="true" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
                 <folding>
                   <element signature="e#182#183#0" expanded="true" />
                   <element signature="e#213#214#0" expanded="true" />
@@ -56,14 +56,13 @@
                   <element signature="e#279#280#0" expanded="true" />
                   <element signature="e#305#306#0" expanded="true" />
                   <element signature="e#342#343#0" expanded="true" />
-                  <element signature="e#225#226#0" expanded="true" />
-                  <element signature="e#269#270#0" expanded="true" />
-                  <element signature="e#314#315#0" expanded="true" />
-                  <element signature="e#344#345#0" expanded="true" />
-                  <element signature="e#390#391#0" expanded="true" />
-                  <element signature="e#421#422#0" expanded="true" />
-                  <element signature="e#476#477#0" expanded="true" />
-                  <element signature="e#532#533#0" expanded="true" />
+                  <element signature="e#232#233#0" expanded="true" />
+                  <element signature="e#306#307#0" expanded="true" />
+                  <element signature="e#337#338#0" expanded="true" />
+                  <element signature="e#381#382#0" expanded="true" />
+                  <element signature="e#412#413#0" expanded="true" />
+                  <element signature="e#465#466#0" expanded="true" />
+                  <element signature="e#521#522#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -241,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561174971400</updated>
-      <workItem from="1561174973087" duration="5289000" />
+      <workItem from="1561174973087" duration="5813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5289000" />
+    <option name="totallyTimeSpent" value="5813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -257,7 +256,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.02010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -575,8 +574,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-06-22-如何优雅的写出一个单例模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <first_editor relative-caret-position="462">
+            <caret line="234" column="31" lean-forward="true" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
             <folding>
               <element signature="e#182#183#0" expanded="true" />
               <element signature="e#213#214#0" expanded="true" />
@@ -584,14 +583,13 @@
               <element signature="e#279#280#0" expanded="true" />
               <element signature="e#305#306#0" expanded="true" />
               <element signature="e#342#343#0" expanded="true" />
-              <element signature="e#225#226#0" expanded="true" />
-              <element signature="e#269#270#0" expanded="true" />
-              <element signature="e#314#315#0" expanded="true" />
-              <element signature="e#344#345#0" expanded="true" />
-              <element signature="e#390#391#0" expanded="true" />
-              <element signature="e#421#422#0" expanded="true" />
-              <element signature="e#476#477#0" expanded="true" />
-              <element signature="e#532#533#0" expanded="true" />
+              <element signature="e#232#233#0" expanded="true" />
+              <element signature="e#306#307#0" expanded="true" />
+              <element signature="e#337#338#0" expanded="true" />
+              <element signature="e#381#382#0" expanded="true" />
+              <element signature="e#412#413#0" expanded="true" />
+              <element signature="e#465#466#0" expanded="true" />
+              <element signature="e#521#522#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
