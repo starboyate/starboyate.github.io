@@ -36,5 +36,6 @@ public class Main {
 
 为了很清晰的看出它们的区别，最好的方式就是直接去反编译这段代码，下面就是反编译出来的内容
 
-![场景一反编译](img/string-1.png)
+![场景一反编译](https://github.com/starboyate/starboyate.github.io/tree/master/img/string-1.png)
+
 
