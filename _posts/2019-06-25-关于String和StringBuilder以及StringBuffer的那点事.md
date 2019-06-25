@@ -1,0 +1,40 @@
+---
+layout: post
+title: "关于String和StringBuilder以及StringBuffer的那点事"
+subtitle: 'java字符串拼接最佳使用场景'
+author: "Starboyate"
+header-img: "img/singleton.jpg"
+multilingual: true
+tags:
+  - Java
+  - 基础
+---
+
+## 一、前言
+> 分享下关于字符串拼接，应该在什么场景使用什么样的最适合，性能最好，
+这也是一个很基础的以及面试或者笔试经常会遇到的问题。Ok,let's go !
+
+<br/>
+
+## 二、场景分析
+##### 1. 场景1
+```java
+public class Main {
+    public static void main(String[] args) {
+        String a = "1" + "2";
+        StringBuilder sb = new StringBuilder();
+        sb.append("1");
+        sb.append("2");
+        StringBuffer buffer = new StringBuffer();
+        buffer.append("1");
+        buffer.append("2");
+    }
+}
+```
+
+<br/>
+
+为了很清晰的看出它们的区别，最好的方式就是直接去反编译这段代码，下面就是反编译出来的内容
+
+![场景一反编译](img/string-1.png)
+
