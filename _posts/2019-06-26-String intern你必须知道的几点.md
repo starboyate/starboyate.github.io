@@ -63,15 +63,15 @@ public class Main {
 来具体分析上面的代码:
 - String a = new String("1");这一行，创建了两个对象，一个在常量池中，一个在堆中，a指向了堆中的String对象。
 
-<br/>
+
 
 - a.intern();这一行，是把a这个字符串对象放入到常量池中，这里注意，前面已经在常量池进行了存储，所以这里是不会再把a放入到常量池中。
 
-<br/>
+
 
 - String b = "1";这个b是指向了常量池中
 
-<br/>
+
 
 - System.out.println(a == b);通过上面的分析，相信很容易看出是false，因为a和b不是同一个对象，一个指向的是堆中的，一个指向的是常量池中。
 
@@ -94,11 +94,11 @@ public class Main {
 - String a = new String("1").intern();首先在这里，还是创建了两个对象，然后调用了intern()方法，在前面介绍intern的定义的时候，当调用
 intern方法的时候，会返回在常量池中的对象，所以这时候a其实指向的是常量池中的。
 
-<br/>
+
 
 - String b = "1";这没什么好说的，也是指向常量池中
 
-<br/>
+
 
 - System.out.println(a == b);那么两个都是指向同一个地方，肯定为true
 
@@ -135,7 +135,7 @@ public class Main {
 当我们调用intern()的时候，其实是重新把a的值copy到常量池中，这时候，因为a指向的是堆中的引用，而b是常量池中那份copy过来的值，
 所以肯定是不相等的。在jdk6以后，常量池是移出了perm space放入到堆中了，并且调用intern方法的时候是直接存储了堆中的引用，所以b和a比较是true。
 
-<br/>
+
 
 - 相信看完上面这两点的分析，可以很清晰的知道自己当前输出是true还是false了。
 
@@ -158,11 +158,11 @@ public class Main {
 我们来分析最后的这个例子:
 - String a = new String("1") + new String("2");这里跟之前一样就不过多分析了
 
-<br/>
+
 
 - String b = "12";这里其实会在常量池中存储一个字符串对象
 
-<br/>
+
 
 - a.intern();调用intern()方法
 
