@@ -179,11 +179,13 @@ public class Main {
 提升我们访问的速度。但也存在相应的坑，下面具体道来。
 
 使用intern注意事项：
-```text
    jdk7之前String常量池的长度为1009，当常量池满了以后，就无法往常量池存储。所以很多一些开源项目为了解决这个问题，都会
 自己手动维护一个StringCache,具体的可以看eureka里的StringCache通过WeakHashMap来做StringPool。但在jdk6之后，64位系统的
 StringTableSize为60013，32位的还是1009，当然如果还不满足，可以通过-XX:StringTableSize参数来进行修改变更
-```
+
+> TODO: 这里我在oracle jdk12.0.1测试场景三的代码的时候，返回的是false，然后更换测试的魔法值，返回的都为true，也就是说
+只有使用"1"和"2"的时候会返回false，后来我更换jdk版本为8，运行了，就不存在这个问题，估计是个bug，已经向oracle提交了对应的
+bug report，后面会再记录下！！
 
 
 ## 三、尾语
