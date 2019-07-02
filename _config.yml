@@ -7,7 +7,6 @@ description: ""
 keyword: ""
 url: "https://www.starboyate.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-meta: ""
 # Publish posts or collection documents with a future date.
 future: true
 
