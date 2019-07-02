@@ -191,6 +191,10 @@ StringTableSize为60013，32位的还是1009，当然如果还不满足，可以
 只有使用"1"和"2"的时候会返回false，后来我更换jdk版本为8，运行了，就不存在这个问题，估计是个bug，已经向oracle提交了对应的
 bug report，后面会再记录下！！
 
+<br/>
+
+> 这里把提交相关的bug report 给 Oracle后，已经列入了bug database了，具体感兴趣的可以查看[这里](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8226877)
+
 
 ## 三、尾语
 >相信通过上面的一系列的分析，也已经彻底掌握了intern的使用，也知道在使用字符串的时候，为了实现复用和速度可以通过
